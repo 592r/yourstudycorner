@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Study Corner 😊📚</title>
+    <link href="studyplanner.css" rel="stylesheet" type="text/css">
+    <script src="studyplanner.js"></script>
+    <link href="WEBSITELOGO.jpg" rel="icon"> 
+</head>
+<body class="body">
+
+<script>
+  var loading = "loading569..."
+console.log(loading)
+console.log(loading)
+console.log(loading)
+console.log(loading)
+console.log(loading)
+console.log("loaded569...")
+
+</script>
+
+<script>alert("Hello! Wellcome to your studyplanner/workdesk!")</script>
+
+<script>
+
+console.log("title = made / 9990 4")
+console.log("680vm all made 999")
+
+</script>
+
+<h1 class="title">Your Study Corner 😊📚</h1>
+
+
+<h3 style="color: white; font-size: 200%;"> Yearly Countdown ↓ ⏲️</h3>
+
+<p style="color: white; font-size: 175%;" id="demo"></p>
+
+
+
+<script>
+
+var countDownDate = new Date("Jan 1, 2024 00:00:00").getTime();
+
+
+var x = setInterval(function() {
+
+
+  var now = new Date().getTime();
+
+
+  var distance = countDownDate - now;
+
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+
+
+
+<div id="myDIV" class="header">
+    <h2 style="color: white;">My To Do List</h2>
+    <input type="text" id="myInput" placeholder="Title...">
+    <span onclick="newElement()" class="addBtn" style="color: white;">Add</span>
+
+  </div>
+
+  
+  <ul id="myUL">
+     
+  </ul>
+
+
+  <br>
+  <br>
+
+
+
+<br>
+<br>
+  
+    
+
+  <div class="month">
+    <ul>
+      <li style="color: #666666;" class="prev">&#10094;</li>
+      <li style="color: #666666;" class="next">&#10095;</li>
+      <li style="color: #666666;">May<br><span style="font-size:18px">2023</span></li>
+    </ul>
+  </div>
+  
+  <ul class="weekdays">
+    <li>Mo</li>
+    <li>Tu</li>
+    <li>We</li>
+    <li>Th</li>
+    <li>Fr</li>
+    <li>Sa</li>
+    <li>Su</li>
+  </ul>
+  
+  <ul class="days">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li><span class="active">10</span></li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li>15</li>
+    <li>16</li>
+    <li>17</li>
+    <li>18</li>
+    <li>19</li>
+    <li>20</li>
+    <li>21</li>
+    <li>22</li>
+    <li>23</li>
+    <li>24</li>
+    <li>25</li>
+    <li>26</li>
+    <li>27</li>
+    <li>28</li>
+    <li>29</li>
+    <li>30</li>
+    <li>31</li>
+  </ul>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  
+
+  <div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    This is an alert box.
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+</body>
+</html>
