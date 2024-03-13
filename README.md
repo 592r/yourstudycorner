@@ -6,3 +6,9 @@
 
 
 #@README
+
+yourstudycorner domains:
+
+https://blaze0.w3spaces.com/studyplanner.html
+
+https://592r.github.io/yourstudycorner/studyplanner.html
